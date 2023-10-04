@@ -1,0 +1,28 @@
+#proof h2 {
+  font-family: var(--font-norwester);
+  font-size: 4rem;
+}
+
+#proof .proof-items {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+}
+
+#proof .proof-items img {
+  object-fit: contain;
+  width: 100%;
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  #proof  h2 {
+    margin-bottom: 4rem;
+  }
+  #proof .proof-items {
+    gap: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,30 @@
+#home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home > img {
+  object-fit: contain;
+  width: 100%;
+  max-width: 700px;
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, .3));
+}
+
+#home > h1 {
+  font-size: 4rem;
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, .3));
+}
+
+@media (max-width: 768px) {
+  #home {
+    flex-direction: column;
+  }
+  #home > h1 {
+    margin: 10vh 0 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+}

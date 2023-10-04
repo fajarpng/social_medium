@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "navbar.css";
+@import "home.css";
+@import "services.css";
+@import "price.css";
+@import "partners.css";
+@import "proof.css";
+@font-face {
+  font-family: "norwester";
+  src: url("/asset/norwester.otf");
+}
+
+:root {
+  --font-norwester: 'norwester', sans-serif;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: #fff;
+  overflow: "";
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  transition: all .2s ease-in-out;
+}
+/* 
+a:hover {
+  color: #fff;
+} */
+
+section {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - (160px));
+  padding: 80px 10%;
+  text-align: center;
+  position: relative;
+}
+section > *, section > * > *{
+  z-index: 3;
+}
+
+button {
+  transition: all .3s ease-in-out;
+}
+
+.t-left {
+  text-align: left;
+}
+
+.f-nw {
+  font-family: var(--font-norwester);
+}
+
+.bg-bl {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30vh;
+  z-index: 0;
+}
+
+.bg-br {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 10vh;
+  z-index: 0;
+}
+
+.bg-tl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  z-index: 0;
+}
+
+.bg-tr {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40vh;
+  z-index: 0;
+}
+
+@media (max-width: 768px) {
+  section {
+  min-height: calc(100vh - (40px));
+  padding: 40px 10%;
+  }
+}
