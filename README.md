@@ -1,1 +1,2 @@
-# [Link Website Social Medium]([https://socialmedium2.netlify.app])
+# SocialMedium
+## [Link Website](https://socialmedium2.netlify.app)
