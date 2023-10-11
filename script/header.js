@@ -1,7 +1,7 @@
 const header = document.querySelector('header') // hader tag
-const navToggle = document.querySelector('#navToggle') // nav toggle id
-const navToggleBars = document.querySelectorAll('#navToggle .bar') // nav toggle bar classes
-const navMenus = document.querySelectorAll('#navMenu ul li') // nav menu list
+const navToggle = document.querySelector('.nav-mobile #navToggle') // nav toggle id
+const navToggleBars = document.querySelectorAll('.nav-mobile #navToggle .bar') // nav toggle bar classes
+const navMenus = document.querySelectorAll('.nav-mobile #navMenu ul li') // nav menu list
 
 let isNabarOpen = false
 let lastScrollTop = 0;

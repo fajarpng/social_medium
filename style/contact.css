@@ -1,0 +1,49 @@
+#contact {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+
+#contact a {
+  color: #fff;
+}
+
+#contact .text-thanks div {
+  width: 30vw;
+  padding: .5rem 5rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  font-size: 2rem;
+  letter-spacing: 8px;
+}
+
+#contact .text-thanks div:nth-child(1) {
+  background-color: #000;
+  color: #fff;
+  transform-origin: bottom right;
+  transform: rotate(3deg) translate(-20px);
+  margin-bottom: 2rem;
+}
+
+#contact .text-thanks div:nth-child(2) {
+  background-color: #fff;
+}
+
+#contact .t-gtc {
+  font-family: var(--font-norwester);
+  font-size: 4rem;
+  margin: 4rem 0;
+}
+
+#contact .info {
+  margin: 2rem 0 4rem;
+}
+#contact .info .contact {
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}

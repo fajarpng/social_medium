@@ -4,16 +4,18 @@
 }
 
 #proof .proof-items {
+  margin-top: 1rem;
   justify-content: center;
   text-align: center;
   display: flex;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 #proof .proof-items img {
   object-fit: contain;
   width: 100%;
-  max-width: 500px;
+  max-width: 350px;
 }
 
 @media (max-width: 768px) {
@@ -24,5 +26,8 @@
     gap: 0;
     flex-direction: column;
     align-items: center;
+  }
+  #proof .proof-items img {
+    margin-top: 1rem;
   }
 }
